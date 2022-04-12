@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+        <!-- Bootstrap JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+	<title>Sweet Home Realty</title>
+        
+        <style>
+            .img-circle{
+                height:600px;
+                max-width:600px;
+            }
+        </style>
+
+    </head>
+    <body>
+        <div class="container">
+            <!-- Jumbotron --> 
+            <div class="jumbotron">
+                <h1>Home Sweet Home Realty</h1> 
+            </div>
+            
+            <!-- Navbar -->
+            <nav class="navbar navbar-inverse">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#">Sweet Home Realty</a>
+                </div>
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">About</a></li>
+                    <li><a href="#">Specials</a></li>
+                    <li><a href="#">Apartment</a></li>
+                    <li><a href="#">House</a></li>
+                    <li><a href="#">Condo</a></li>
+                    <li><a href="#">Buy</a></li>
+                    <li><a href="#">Month to Month Lease</a></li>
+                    <li><a href="#">12 Month Lease</a></li>
+                </ul>
+            </nav>
+        </div>
+        
+        <!-- Main Content -->
+        <div class="container">
+            <div class="page-header">
+                <h1>Recently Added Properties</h1>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <h3>Home Castle</h3>
+                    <!-- Create a thumbnail link out of the image -->
+                    <a class="thumbnail" href="#">
+                        <img src="https://codehs.com/images/castle" 
+                             alt="Home Castle">
+                    </a>
+                    <a href="#feat-1" class="btn btn-primary btn-lg">
+                        See More of the Castle!
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <h3>Lighthouse Cottage</h3>
+                    <!-- Use thumbnail in div to get the outline -->
+                    <div class="thumbnail">
+                         <img src="https://codehs.com/images/lighthouse"
+                            alt="Lighthouse">
+                        <!-- Class btn-block makes the button act like 
+                            its own block, rather than inline -->
+                        <a href="#feat-2" class="btn btn-info btn-block">
+                            Click for More Information
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <h3>Floating Boat Home</h3>
+                    <!-- Only outline the image with thumbnail -->
+                    <div class="thumbnail">
+                        <img src="https://codehs.com/images/boathouse"
+                            alt="Boat House">
+                    </div>
+                    <a href="#feat-3" class="btn btn-danger">
+                       You really want this one?
+                    </a>
+                    <a href="#feat-3" class="btn btn-danger disabled">
+                        Coming soon- more pictures!
+                    </a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="page-header">
+                        <h2>Learn More</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4" id="feat-1">
+                    <h3>Home Castle</h3>
+                    <p>
+                        Haven't you ever wanted to live in your very own drafty 
+                        castle?  Now you can make your dreams come true!  Nestled 
+                        on the top of a swamp like hill, you'll be almost guaranteed
+                        that your privacy will never be invaded.  When you do want
+                        to entertain guests, you can fit them all in the 15
+                        bedrooms this castle has! Act fast!  This is a once in 
+                        a lifetime purchase!
+                    </p>
+                </div>
+                <div class="col-md-8">
+                    <img height="800px" class="img-circle" src="https://codehs.com/images/castle">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4" id="feat-2">
+                    <h3>Lighthouse Cottage</h3>
+                    <p>
+                        Who hasn't ever dreamed of manning the lighthouse during
+                        a dark and stormy night on the lake?  It will be up to you
+                        to keep the boats safe on the lake and away from the 
+                        rocks jutting out from this idyllic shoreline.  Speaking
+                        of shoreline, you're just steps away from bullfrogs and
+                        fireflies.  They're a real delight on a warm summer night.
+                        This lighthouse has one bedroom and a kitchen-dining room-den
+                        combo rom.
+                    </p>
+                </div>
+                <div class="col-md-8">
+                    <img class="img-circle" src="https://codehs.com/images/lighthouse">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4" id="feat-3">
+                    <h3>Floating Boat Home</h3>
+                    <p>
+                        Tired of the traffic noises when you wake up?  Want to get
+                        away from the Jones' and their perfectly manicured lawn?
+                        Look no further than this perfect floating haven. It boasts
+                        two bedrooms, a half kitchen, and 1.5 baths.  While you
+                        won't be able to fit your 60 inch TV in this its cozy
+                        interior, you'll be so enamoured with your surroundings,
+                        it won't matter!
+                    </p>
+                </div>
+                <div class="col-md-8">
+                    <img class="img-circle" src="https://codehs.com/images/boathouse">
+                </div>
+            </div>
+        </div>
+        <br>
+        <footer class="container-fluid text-center well">
+           <h3>Ready to come see your new home?</h3>
+           <h5>Give us a call</h5>
+           <h4><span class="glyphicon glyphicon-phone-alt"></span>(123) 456 - 0987</h4>
+        </footer>
+            
+    </body>
+</html>

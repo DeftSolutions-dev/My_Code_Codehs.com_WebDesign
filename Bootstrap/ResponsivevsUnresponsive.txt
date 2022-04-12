@@ -1,0 +1,3 @@
+Responsive web design is a website practice suitable for zoom work with wide screen coverage, no matter how big, mobile or desktop. Responsive web design is centered around looks and enjoyable experiences for everyone. The user's desktop and cell phone all benefit from responsive sites.
+Bootstrap is an open source and free HTML, CSS and JS framework used by web developers to quickly create responsive website designs.
+http://colly.com/
