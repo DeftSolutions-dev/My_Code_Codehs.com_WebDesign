@@ -1,0 +1,2 @@
+I'm not very proud of this fact, but be that as it may. Made Mod dll for a couple of games. Also a different number of programs and libraries
+C# and a bit of C/C++

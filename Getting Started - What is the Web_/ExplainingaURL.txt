@@ -1,0 +1,3 @@
+1. www.example.com / ip - 93.184.216.34
+2. homepage.html
+at first, the request will be sent to the site server, there it is processed and the server will send back a response, and after that this page with resources is loaded.

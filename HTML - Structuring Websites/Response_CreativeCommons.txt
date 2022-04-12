@@ -1,0 +1,22 @@
+Give a short description of each of the following license 
+types in your own words.
+
+
+1. CC BY
+    Only Attribution (Name, sometimes with Homepage-link)
+
+2. CC BY-SA
+    Attribution and Share Alike
+
+3. CC BY-ND
+   Attribution and No editing (no derivatives)
+   
+4. CC BY-NC
+     Attribution and No commercial use
+
+
+5. CC BY-NC-SA 
+    Attribution, No commercial use and Share Alike
+
+6. CC BY-NC-ND
+   Attribution, No commercial use and No editing

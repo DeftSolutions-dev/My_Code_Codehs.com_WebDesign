@@ -1,0 +1,1 @@
+Internet Protocol is a routable network layer protocol of the IP stack. It was IP that became the protocol that united individual computer networks into the worldwide Internet. An integral part of the protocol is network addressing. MB

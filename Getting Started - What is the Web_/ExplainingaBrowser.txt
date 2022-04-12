@@ -1,0 +1,7 @@
+A browser is software for viewing pages, the content of web documents, computer files and their directories, as well as for solving other tasks.
+
+1. Much less crashes or freezes.
+2. Much more protected from viruses, malware.
+3. Pages load much faster.
+4. A wide variety of useful plugins supported.
+5. New browsers will automatically update to the latest version, or will notify you to download an update.
