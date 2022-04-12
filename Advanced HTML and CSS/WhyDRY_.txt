@@ -1,0 +1,2 @@
+The essence of the DRY pattern is to make it so that changes are required only in one place in the code.
+and there was no pain when you have to go through and look for the same pieces of code and replace them.
